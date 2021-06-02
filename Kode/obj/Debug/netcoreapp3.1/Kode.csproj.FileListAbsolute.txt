@@ -1,0 +1,11 @@
+C:\Users\jeppe\OneDrive\Universitet Datalogi\RAD\Kode\obj\Debug\netcoreapp3.1\Kode.csprojAssemblyReference.cache
+C:\Users\jeppe\OneDrive\Universitet Datalogi\RAD\Kode\obj\Debug\netcoreapp3.1\Kode.AssemblyInfoInputs.cache
+C:\Users\jeppe\OneDrive\Universitet Datalogi\RAD\Kode\obj\Debug\netcoreapp3.1\Kode.AssemblyInfo.cs
+C:\Users\jeppe\OneDrive\Universitet Datalogi\RAD\Kode\bin\Debug\netcoreapp3.1\Kode.exe
+C:\Users\jeppe\OneDrive\Universitet Datalogi\RAD\Kode\bin\Debug\netcoreapp3.1\Kode.deps.json
+C:\Users\jeppe\OneDrive\Universitet Datalogi\RAD\Kode\bin\Debug\netcoreapp3.1\Kode.runtimeconfig.json
+C:\Users\jeppe\OneDrive\Universitet Datalogi\RAD\Kode\bin\Debug\netcoreapp3.1\Kode.runtimeconfig.dev.json
+C:\Users\jeppe\OneDrive\Universitet Datalogi\RAD\Kode\bin\Debug\netcoreapp3.1\Kode.dll
+C:\Users\jeppe\OneDrive\Universitet Datalogi\RAD\Kode\bin\Debug\netcoreapp3.1\Kode.pdb
+C:\Users\jeppe\OneDrive\Universitet Datalogi\RAD\Kode\obj\Debug\netcoreapp3.1\Kode.dll
+C:\Users\jeppe\OneDrive\Universitet Datalogi\RAD\Kode\obj\Debug\netcoreapp3.1\Kode.pdb
