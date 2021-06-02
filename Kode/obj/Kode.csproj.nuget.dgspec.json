@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeppe\\OneDrive\\Universitet Datalogi\\RAD\\Kode\\Kode.csproj": {}
+    "C:\\Users\\Lykke\\Desktop\\Datalogi\\RandomiseredeAlgoritmerForDataanalyse_RAD\\Implementationsporjekt\\RAD-Implementation\\kode\\Kode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeppe\\OneDrive\\Universitet Datalogi\\RAD\\Kode\\Kode.csproj": {
+    "C:\\Users\\Lykke\\Desktop\\Datalogi\\RandomiseredeAlgoritmerForDataanalyse_RAD\\Implementationsporjekt\\RAD-Implementation\\kode\\Kode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeppe\\OneDrive\\Universitet Datalogi\\RAD\\Kode\\Kode.csproj",
+        "projectUniqueName": "C:\\Users\\Lykke\\Desktop\\Datalogi\\RandomiseredeAlgoritmerForDataanalyse_RAD\\Implementationsporjekt\\RAD-Implementation\\kode\\Kode.csproj",
         "projectName": "Kode",
-        "projectPath": "C:\\Users\\jeppe\\OneDrive\\Universitet Datalogi\\RAD\\Kode\\Kode.csproj",
-        "packagesPath": "C:\\Users\\jeppe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeppe\\OneDrive\\Universitet Datalogi\\RAD\\Kode\\obj\\",
+        "projectPath": "C:\\Users\\Lykke\\Desktop\\Datalogi\\RandomiseredeAlgoritmerForDataanalyse_RAD\\Implementationsporjekt\\RAD-Implementation\\kode\\Kode.csproj",
+        "packagesPath": "C:\\Users\\Lykke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lykke\\Desktop\\Datalogi\\RandomiseredeAlgoritmerForDataanalyse_RAD\\Implementationsporjekt\\RAD-Implementation\\kode\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jeppe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Lykke\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

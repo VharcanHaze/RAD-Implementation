@@ -5,6 +5,8 @@ namespace Kode
 {
     public static class Functions
     {
+        public static Int64 aRan = 0b0111100011010111100011001101110110010101110010101001111110011101;
+        public static int lRan = 32;
         public static BigInteger p = 2^89-1;
         public static Int64 multiply_shift(Int64 x, Int64 a, int l)
         {
