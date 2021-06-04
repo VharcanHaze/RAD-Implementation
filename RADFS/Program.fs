@@ -28,11 +28,16 @@ let bRan = Numerics.BigInteger.Parse(bDecString)
 
 let multiply_mod_prime (a:bigint) (b:bigint) (x:bigint) (l:float) : bigint =
     if (1=1) then
-        let hx1:bigint = (a * x + b)
-        let mutable hx2 = (hx1&&&p) + (hx1>>>q)
-        if (hx2 >= p) then
-            let hx2 = hx2 - p
-            
+        let hx1 = (a * x + b)
+        let hx2 = (hx1&&&p) + (hx1>>>q)
+        let hx3 =
+            if (hx2 >= p) then
+                hx2 - p
+            else
+                hx2
+        let TL = bigint (2.0**l)
+        let hx4 = hx3>>> ((int)l)
+        hx4
     else
         0I
 
