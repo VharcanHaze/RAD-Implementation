@@ -36,10 +36,10 @@ let multiply_mod_prime (a:bigint) (b:bigint) (x:bigint) (l:float) : bigint =
             else
                 hx2
         let TL = bigint (2.0**l)
-        let hx4 = hx3&&&((bigint l)-1I) //WRONG
+        let hx4 = hx3&&&(TL-1I)
         hx4
     else
         0I
 
-printfn ("%A") (multiply_mod_prime aRan bRan 12I 5.0)
-printfn ("%A") (multiply_mod_prime 44I 437I 12I 5.0)
+for i = 12500 to 12700 do
+    printfn ("%A") (multiply_mod_prime aRan bRan (bigint i) 11.0)
