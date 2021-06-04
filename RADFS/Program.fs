@@ -41,5 +41,21 @@ let multiply_mod_prime (a:bigint) (b:bigint) (x:bigint) (l:float) : bigint =
     else
         0I
 
-for i = 12500 to 12700 do
-    printfn ("%A") (multiply_mod_prime aRan bRan (bigint i) 11.0)
+//for i = 12500 to 12700 do
+//    printfn ("%A") (multiply_mod_prime aRan bRan (bigint i) 11.0)
+
+let xTest = 12247835I
+let lTest = 23.0
+
+let timer = System.Diagnostics.Stopwatch.StartNew()
+timer.Start()
+multiply_shift (int64 xTest) (int64 3426234)  (int lTest)
+timer.Stop()
+printfn "%A" (timer.Elapsed)
+
+timer.Reset()
+
+timer.Start()
+multiply_mod_prime aRan bRan xTest lTest
+timer.Stop()
+printfn "%A" (timer.Elapsed)
