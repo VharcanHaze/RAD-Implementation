@@ -36,7 +36,7 @@ let multiply_mod_prime (a:bigint) (b:bigint) (x:bigint) (l:float) : bigint =
             else
                 hx2
         let TL = bigint (2.0**l)
-        let hx4 = hx3>>> ((int)l)
+        let hx4 = hx3&&&((bigint l)-1I) //WRONG
         hx4
     else
         0I
