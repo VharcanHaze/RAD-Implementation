@@ -112,11 +112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jeppe Ram\\Desktop\\RADFS\\RADFS.fsproj",
+      "projectUniqueName": "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj",
       "projectName": "RADFS",
-      "projectPath": "C:\\Users\\Jeppe Ram\\Desktop\\RADFS\\RADFS.fsproj",
+      "projectPath": "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj",
       "packagesPath": "C:\\Users\\Jeppe Ram\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jeppe Ram\\Desktop\\RADFS\\obj\\",
+      "outputPath": "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jeppe Ram\\AppData\\Roaming\\NuGet\\NuGet.Config"
