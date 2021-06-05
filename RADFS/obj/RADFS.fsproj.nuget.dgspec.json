@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeppe\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj": {}
+    "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\jeppe\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj": {
+    "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeppe\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj",
+        "projectUniqueName": "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj",
         "projectName": "RADFS",
-        "projectPath": "C:\\Users\\jeppe\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj",
-        "packagesPath": "C:\\Users\\jeppe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeppe\\Desktop\\RAD-Implementation\\RADFS\\obj\\",
+        "projectPath": "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj",
+        "packagesPath": "C:\\Users\\Jeppe Ram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jeppe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Jeppe Ram\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
