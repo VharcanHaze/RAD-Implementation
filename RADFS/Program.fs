@@ -1,12 +1,12 @@
 ﻿open System
 
 let a_ms_bin_string = "0001011100010100100111110100001110000100001001000010100111101101"
-let a_ms = 1663129274735143405UL
+let a_ms = 1663129274735143405L
 
 // Opg.1a
-let multiply_shift (x:uint64) (l:int): int64 =
+let multiply_shift (x : int64) (l:int): int64 =
     if ((l > 0) || (l < 64)) then
-        (a_ms * x) >>> (64-l)
+        (a_ms * x)>>>(64-l)
     else
         printfn "Invalid"
         0L
@@ -73,20 +73,45 @@ let createStream (n : int) (l : int) : seq<uint64 * int> =
             yield (x &&& (((1UL<<<l) - 1UL)<<< 30) , 1)
     }
 
-let timer = System.Diagnostics.Stopwatch.StartNew()
+let timer = System.Diagnostics.Stopwatch()
+
+let xTest = 59L
+let lTest = 25
 
 timer.Start()
-multiply_shift (int64 xTest) (int64 3426231)  (int lTest)
+//multiply_shift (int64 xTest) (int64 3426231)  (int lTest)
+let mulitply_shift_test = multiply_shift xTest lTest
+//printfn "%A" sum(mulitply_shift_test)
 timer.Stop()
-printfn "%A" (timer.Elapsed)
-
+printfn "%A" timer.Elapsed.TotalSeconds
 timer.Reset()
 
 timer.Start()
-multiply_mod_prime xTest aRan bRan lTest
+multiply_mod_prime xTest aRan bRan lTest |> ignore
 timer.Stop()
-printfn "%A" (timer.Elapsed)
+printfn "%A" timer.Elapsed.TotalSeconds
 
 //Opg2a
-let make_hash_table (h : (int64 int) -> bigint) (l : int) : int =
-    1
+//let make_hash_table (h : (int64 int) -> bigint) (l : int) : int =
+
+/// <summary> Hash tabel med chaining, med antagelse om at størrelsen af hash-
+/// tabellen er en toerpotens </summary>
+/// <param name = "h"> En hashfunktion, hvor billedmængden er [2^l] </param>
+/// <param name = "l"> Et positivt heltal </param>
+type make_hash_table (h : seq<uint64 * int>, l : int) = class
+    //let hashTable (h:(bigint*bigint)) : h list =  
+    member x.hash_function = h
+    member x.l = l
+    // returnerer værdien som tilhører nøglen, x
+//    member x.Get (get: int64) = if List.exists then 
+//                                    return h[index]
+//                                else 0L
+
+    // Sætter nøglen x til at have værdien v. I tilfældet hvor x ikke er i 
+    // tabellen så tilføjes den til tabellen med værdien, v.
+    member x.Set (set: int64*int64) = set
+
+    // Lægger d til værdien tilhørende x. I tilfældet hvor x ikke er i 
+    // tabellen, så tilføjes den til tabellen med værdien, d.
+    member x.Increment (increment: int64*int64) = increment
+end 

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj": {}
+    "C:\\Users\\Lykke\\Desktop\\Datalogi\\RandomiseredeAlgoritmerForDataanalyse_RAD\\Implementationsporjekt\\RAD-Implementation\\RADFS\\RADFS.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj": {
+    "C:\\Users\\Lykke\\Desktop\\Datalogi\\RandomiseredeAlgoritmerForDataanalyse_RAD\\Implementationsporjekt\\RAD-Implementation\\RADFS\\RADFS.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj",
+        "projectUniqueName": "C:\\Users\\Lykke\\Desktop\\Datalogi\\RandomiseredeAlgoritmerForDataanalyse_RAD\\Implementationsporjekt\\RAD-Implementation\\RADFS\\RADFS.fsproj",
         "projectName": "RADFS",
-        "projectPath": "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\RADFS.fsproj",
-        "packagesPath": "C:\\Users\\Jeppe Ram\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jeppe Ram\\Desktop\\RAD-Implementation\\RADFS\\obj\\",
+        "projectPath": "C:\\Users\\Lykke\\Desktop\\Datalogi\\RandomiseredeAlgoritmerForDataanalyse_RAD\\Implementationsporjekt\\RAD-Implementation\\RADFS\\RADFS.fsproj",
+        "packagesPath": "C:\\Users\\Lykke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lykke\\Desktop\\Datalogi\\RandomiseredeAlgoritmerForDataanalyse_RAD\\Implementationsporjekt\\RAD-Implementation\\RADFS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jeppe Ram\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Lykke\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
