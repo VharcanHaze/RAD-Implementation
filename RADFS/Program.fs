@@ -80,14 +80,14 @@ let lTest = 25
 
 timer.Start()
 //multiply_shift (int64 xTest) (int64 3426231)  (int lTest)
-let mulitply_shift_test = multiply_shift xTest lTest
+multiply_shift xTest lTest |> ignore
 //printfn "%A" sum(mulitply_shift_test)
 timer.Stop()
 printfn "%A" timer.Elapsed.TotalSeconds
 timer.Reset()
 
 timer.Start()
-multiply_mod_prime xTest aRan bRan lTest |> ignore
+let specific_hash_table = multiply_mod_prime xTest aRan bRan lTest
 timer.Stop()
 printfn "%A" timer.Elapsed.TotalSeconds
 
@@ -98,20 +98,18 @@ printfn "%A" timer.Elapsed.TotalSeconds
 /// tabellen er en toerpotens </summary>
 /// <param name = "h"> En hashfunktion, hvor billedmængden er [2^l] </param>
 /// <param name = "l"> Et positivt heltal </param>
-type make_hash_table (h : seq<uint64 * int>, l : int) = class
-    //let hashTable (h:(bigint*bigint)) : h list =  
-    member x.hash_function = h
-    member x.l = l
-    // returnerer værdien som tilhører nøglen, x
-//    member x.Get (get: int64) = if List.exists then 
-//                                    return h[index]
-//                                else 0L
+type make_hash_table (h : seq<uint64 * int>, l : int) = class  
+    let mutable l = l
+    let mutable hash_table = multiply_mod_prime 25L aRan bRan l
+    member x.Hash_table = hash_table
+    member x.L = l
+    // x.Get kører ikke
+//    member x.Get (get: int64) = match hash_table(index) with
+//                                | hash_table(index) -> if List.exists index hash_table.[index] then yield index
+//                                | _ -> 0L
 
-    // Sætter nøglen x til at have værdien v. I tilfældet hvor x ikke er i 
-    // tabellen så tilføjes den til tabellen med værdien, v.
     member x.Set (set: int64*int64) = set
 
-    // Lægger d til værdien tilhørende x. I tilfældet hvor x ikke er i 
-    // tabellen, så tilføjes den til tabellen med værdien, d.
+
     member x.Increment (increment: int64*int64) = increment
 end 
